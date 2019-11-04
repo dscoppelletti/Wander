@@ -1,0 +1,35 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=93:C0:0A:CB:36:3F:03:B6:08:8A:38:F3:26:54:74:E4:CE:EA:0B:60%3Bcom.example.android.wander
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    93:C0:0A:CB:36:3F:03:B6:08:8A:38:F3:26:54:74:E4:CE:EA:0B:60
+
+    SHA-1 certificate fingerprint:
+    93:C0:0A:CB:36:3F:03:B6:08:8A:38:F3:26:54:74:E4:CE:EA:0B:60
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <!-- DOC STEP 1.1 - Create the Wander project with the Maps template
+    You use this configuration file to hold your API key. The template generates
+    two google_maps_api.xml files: one for debug and one for release. The file
+    for the API key for the debug certificate is located in
+    src/debug/res/values. The file for the API key for the release certificate
+    is located in src/release/res/values. In this practical we only use the
+    debug certificate.
+    DOC END STEP 1.1. -->
+    <!-- TODO STEP 1.2 - Obtain the API key
+    I am used to keep my API keys in a safer place.
+    TODO STEP 1.2 -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+</resources>

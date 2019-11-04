@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DOC STEP 1.1 - Create the Wander project with the Maps template
+This layout file contains a single fragment that fills the entire screen. The
+SupportMapFragment class is a subclass of the Fragment class. You can include
+SupportMapFragment in a layout file using a <fragment> tag in any ViewGroup,
+with an additional attribute:
+
+android:name="com.google.android.gms.maps.SupportMapFragment"
+
+DOC END STEP 1.1 -->
+<!-- DOC STEP 3 - Style your map
+You can also customize a MapFragment object using the available XML attributes,
+as you would customize any other fragment.
+DOC END STEP 3 -->
+<!-- TODO STEP 4.2.B1 - Replace the static SupportMapFragment with a runtime instance
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- TODO END STEP 4.2.B1 -->
